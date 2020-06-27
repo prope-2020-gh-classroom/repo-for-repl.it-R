@@ -1,0 +1,6 @@
+# Example:
+
+.libPaths(new='~/R/')
+dir.create('~/R', showWarnings = FALSE, recursive = TRUE)
+.libPaths()
+install.packages("magrittr")
